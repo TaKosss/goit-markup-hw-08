@@ -1,0 +1,48 @@
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+    }
+        @media screen and (min-width: 768px) {
+            max-width: 768px;
+        }
+                @media screen and (min-width: 1200px) {
+                    max-width: 1200px;
+                }
+}
+
+.section {
+    padding: 60px 0;
+}
+
+
+.navigation .current {
+    color: var(--hover--color);
+}
+.hero-portfolio__list-nav .current {
+        background-color: var(--hover--color);
+        color: #FFFFFF;
+    }
+
+
+.section--no-padding-top {
+    padding-top: 0;
+}
+.section--other-background {
+    background-color: var(--team--background);
+}
+ 
+.hero-btn,
+.hero-portfolio-btn {
+    cursor: pointer
+}  
+.section__title--display-none {
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
