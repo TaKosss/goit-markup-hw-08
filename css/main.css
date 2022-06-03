@@ -518,7 +518,7 @@ ul {
 }
 
 .advantages__item {
-  width: 450px;
+  max-width: 450px;
 }
 .advantages__item + .advantages__item {
   margin-top: 30px;
@@ -542,7 +542,7 @@ ul {
 }
 
 .advantages__icon-container {
-  width: 450px;
+  max-width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--team--background);
@@ -615,7 +615,7 @@ ul {
 }
 
 .team__item {
-  width: 450px;
+  max-width: 450px;
   text-align: center;
   background-color: var(--member--background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);

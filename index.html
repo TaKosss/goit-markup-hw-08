@@ -132,9 +132,18 @@
             <div class="container">
             <h2 class="section__title section__title--display-none">Чем мы занимаемся</h2>
                 <ul class="occupation">
-                    <li class="occupation__item"><img src="./images/img-1.jpg" alt="набор кода" width="370" height="294"><p class="occupation__text">Десктопные приложения</p></li>
-                    <li class="occupation__item"><img src="./images/img-2.jpg" alt="ux/ui макет" width="370" height="294"><p class="occupation__text">Мобильные приложения</p></li>
-                    <li class="occupation__item"><img src="./images/img-3.jpg" alt="цветовая палитра" width="370" height="294"><p class="occupation__text">Дизайнерские решения</p></li>
+                    <li class="occupation__item"><picture>
+                        <source srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x" media="(min-width:1200px)">
+                        <img src="./images/img-1.jpg" alt="набор кода" >
+                    </picture><p class="occupation__text">Десктопные приложения</p></li>
+                    <li class="occupation__item"><picture>
+                        <source srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x" media="(min-width:1200px)">
+                        <img src="./images/img-2.jpg" alt="ux/ui макет">
+                    </picture><p class="occupation__text">Мобильные приложения</p></li>
+                    <li class="occupation__item"><picture>
+                        <source srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x" media="(min-width:1200px)">
+                        <img src="./images/img-3.jpg" alt="цветовая палитра">
+                    </picture><p class="occupation__text">Дизайнерские решения</p></li>
                 </ul>
             </div>
         </section>

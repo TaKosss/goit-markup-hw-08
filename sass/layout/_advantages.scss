@@ -27,7 +27,7 @@
 }
 
 .advantages__item {
-    width: 450px;
+    max-width: 450px;
     &+& {
         margin-top: 30px;
     }
@@ -50,8 +50,7 @@
 }
 
 .advantages__icon-container {
-    width: 450px;
-    // width: 270px;
+    max-width: 450px;
     height: 120px;
     margin-bottom: 30px;
     
