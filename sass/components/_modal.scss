@@ -8,8 +8,11 @@
 }
 
 .modal {
+    margin-left: 15px;
+    margin-right: 15px;
     position: relative;
     width: 450px;
+    max-width: 100%;
     min-height: 609px;
     background-color: #FFFFFF;
     position: absolute;
