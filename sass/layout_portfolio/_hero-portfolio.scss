@@ -6,22 +6,41 @@
     justify-content: left;
     @media screen and (min-width: 768px){
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 }
 
 .hero-portfolio__item-nav+.hero-portfolio__item-nav {
-    margin-left: 8px;
-    margin-bottom: 15px;
+    
+        margin-left: 8px;
+            margin-bottom: 15px;
+        
+            &:nth-child(3) {
+                margin-left: 0;
+            }
+        
+            &:nth-child(5) {
+                margin-left: 0;
+                margin-bottom: 0;
+            }
+        
+   
+
+    @media screen and (min-width: 390px) {
+    &:nth-child(3) {
+            margin-left: 8px;
+        }
     &:nth-child(4) {
         margin-left: 0;
         margin-bottom: 0;
     }
         &:nth-child(5) {
-            margin-bottom: 0;
+            margin-left: 8px;
         }
+    }
 
     @media screen and (min-width: 768px) {
+        margin-bottom: 0;
                     &:nth-child(4) {
                             margin-left: 8px;
                         }
@@ -62,7 +81,6 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    // display: block;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -130,18 +148,10 @@
 
 .hero-portfolio__card {
     flex-grow: 1;
-    min-width: 290px;
-    max-width: 450px;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     padding: 20px 24px;
-    @media screen and (min-width: 768px) {
-        width: 354px;
-    }
-        @media screen and (min-width: 1200px) {
-            width: 370px;
-        }
 }
 
 .hero-portfolio__overley-container {

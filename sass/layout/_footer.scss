@@ -84,6 +84,7 @@
     
     @media screen and (min-width: 768px) {
         flex-wrap: wrap;
+        justify-content: space-around;
         display: flex;
         align-items: baseline;
     }
@@ -97,11 +98,11 @@
     &:not(:last-child) {
         margin-bottom: 60px;
     }
-        @media screen and (min-width: 768px) {
-            &:nth-child(2n) {
-                margin-left: auto;
-            }
-        }
+    //     @media screen and (min-width: 768px) {
+    //         &:nth-child(2n) {
+    //             margin-left: auto;
+    //         }
+    //     }
         &+& {
             @media screen and (min-width: 1200px) {
                 margin-left: auto;

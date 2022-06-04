@@ -17,8 +17,13 @@
 }
 
 .section {
-    padding: 60px 0;
+padding: 60px 0;
+
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+    }
 }
+
 
 
 .navigation .current {
@@ -31,7 +36,11 @@
 
 
 .section--no-padding-top {
+    @media screen and (max-width: 767px) {
+    display: none;}
+        @media screen and (min-width: 1200px) {
     padding-top: 0;
+        }
 }
 .section--other-background {
     background-color: var(--team--background);
