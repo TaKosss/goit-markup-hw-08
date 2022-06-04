@@ -160,7 +160,7 @@
     padding-left: 16px;
     margin-bottom: 20px;
     outline: none;
-    display: block;
+    display: flexbox;
     &::placeholder,
         &:focus-visible {
             font-size: 16px;
@@ -176,6 +176,12 @@
                 }
 }
 
+.sub-container input {
+    @media screen and (max-width: 481px) {
+        width: 100%
+    }
+    
+}
 
 .footer-sub-btn {
     font-family: inherit;
@@ -213,6 +219,7 @@
 }
 
 .sub-container {
+   
     display: flex;
     @media screen and (min-width: 768px) {
         margin-right: 152px;
